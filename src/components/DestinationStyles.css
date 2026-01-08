@@ -1,8 +1,14 @@
 .destination{
-    margin: 4rem 6rem;
+    margin: 6rem 6rem;
 }
+
 .destination h1{
     font-size: 3rem;
+    text-align: center;
+}
+.dest-para{
+    
+    text-align: center;
 }
 .first-des{
     display: flex;
@@ -38,7 +44,7 @@ z-index: -99;
 }
 
 .image img{
-    width: 48%;
+    width: 49%;
     height:  350px;
     object-fit: cover;
     border-radius: 6px;
@@ -47,7 +53,7 @@ z-index: -99;
 }
 .image img:nth-child(2){
     position: absolute;
-    top: -10px;
+    top: -10%;
     right: 0px;
 
 }

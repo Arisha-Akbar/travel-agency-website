@@ -5,8 +5,11 @@
 
 .trip h1 {
   font-size: 3rem;
+  text-align: center;
 }
-
+.trip-para{
+  text-align: center;
+}
 .tripcard {
   margin-top: 3rem;
   display: flex;
@@ -53,3 +56,4 @@
   margin-bottom: 1.5rem;
 
  }
+}

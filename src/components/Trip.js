@@ -9,7 +9,7 @@ function Trip (){
     return(
         <div className="trip">
             <h1>Recent Trips</h1>
-            <p>You can discover unique destinations using Google Maps.</p>
+            <p className="trip-para">You can discover unique destinations using Google Maps.</p>
             <div className="tripcard">
                 <TripData
                 image={Trip1}
