@@ -5,7 +5,7 @@ function Hero (props){
 return(
     <>
     <div className={props.cName}>
-        <img className="hero-img" src={props.heroImg}/>
+        <img className="hero-img" alt="Travel destination hero image" src={props.heroImg}/>
         <div className="hero-text">
             <h1>{props.title}</h1>
             <p>{props.text}</p>
